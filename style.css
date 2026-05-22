@@ -50,17 +50,24 @@ header .logo {
     letter-spacing: 2px;
     color: var(--text-pure);
 }
-header .logo img {
-    height: 70px;
-    width: auto;
-    display: inline-block;
-    vertical-align: middle;
-    
-    mix-blend-mode: screen; 
-    filter: brightness(1.2) contrast(1.1);
-    
-    clip-path: inset(3px 5px 3px 5px); 
+header .logo {
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-style: italic; /* Gives it that aggressive racing slant */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
 }
+
+header .logo .brand-j {
+    color: #ff3333; /* Matches your bold brand red */
+    font-size: 2.3rem;
+    margin-right: 4px;
+    font-weight: 900;
+    text-shadow: 2px 2px 0px #000000;
 }
 header .logo .brand-j {
     color: var(--accent);
