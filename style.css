@@ -56,13 +56,12 @@ header .logo {
     display: flex;
     align-items: center;
 }
+header .logo img {
+    height: 65px;          
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
 
-header .logo .brand-j {
-    color: #ff3333; /* Matches your bold brand red */
-    font-size: 2.3rem;
-    margin-right: 4px;
-    font-weight: 900;
-    text-shadow: 2px 2px 0px #000000;
 }
 header .logo .brand-j {
     color: var(--accent);
