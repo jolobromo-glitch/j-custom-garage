@@ -51,12 +51,16 @@ header .logo {
     color: var(--text-pure);
 }
 header .logo img {
-    height: 65px;             
-    width: auto;             
+    height: 55px;
+    width: auto;
     display: inline-block;
     vertical-align: middle;
-    background: transparent !important;
-    mix-blend-mode: lighten;
+    
+    mix-blend-mode: screen; 
+    filter: brightness(1.2) contrast(1.1);
+    
+    clip-path: inset(3px 5px 3px 5px); 
+}
 }
 header .logo .brand-j {
     color: var(--accent);
